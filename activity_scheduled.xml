@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheduled">
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/arrowleft"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="243dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:text="SCHEDULES"
+
+        android:textColor="@color/headgreen"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toRightOf="@id/arrow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/todayschedule"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:text="Today’s schedule"
+        android:textColor="@color/textblack"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header" />
+
+    <TextView
+        android:id="@+id/dayname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:text="Thursday 21"
+        android:textColor="@color/blue"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/todayschedule" />
+
+    <TextView
+        android:id="@+id/round"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/textview"
+        android:gravity="center"
+        android:text="Round 1              7:30 AM"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/todayschedule" />
+
+    <!-- Add this block inside your existing ConstraintLayout -->
+    <TextView
+        android:id="@+id/schedulepara"
+        android:layout_width="312dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="28dp"
+        android:text="Have a say in when your garbage is picked up!"
+        android:textColor="@color/textblack"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/round" />
+
+    <LinearLayout
+        android:id="@+id/optionsLayout"
+        android:layout_width="304dp"
+        android:layout_height="260dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/schedulepara"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/custom_border">
+        <TextView
+            android:id="@+id/polling"
+            android:layout_width="240dp"
+            android:layout_height="55dp"
+            android:text="Vote in our poll to decide the best time for the garbage pickup vehicle to come to your locality."
+            android:layout_marginLeft="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="21dp"
+            android:textSize="14sp"
+            android:textColor="@color/textblack"/>
+
+        <!-- First line of option buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="17dp"
+            >
+
+
+            <Button
+                android:id="@+id/option1Button"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:text="Option 1"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="35dp"
+                android:backgroundTint="@color/b1"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp" /> <!-- Add padding to the right -->
+
+
+            <Button
+                android:id="@+id/option2Button"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+
+                android:layout_marginRight="32dp"
+                android:text="Option 2"
+                android:backgroundTint="@color/b2"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp" />
+
+        </LinearLayout>
+
+        <!-- Second line of option buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="17dp"
+            >
+
+
+            <Button
+                android:id="@+id/option3Button"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:text="Option 3"
+
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="32dp"
+                android:backgroundTint="@color/b3"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp" />
+
+            <Button
+                android:id="@+id/option4Button"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:text="Option 4"
+                android:layout_marginRight="32dp"
+                android:backgroundTint="@color/b4"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                />
+
+        </LinearLayout>
+
+        <!-- Submit button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="230dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:backgroundTint="@color/green"
+            android:text="Submit" />
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
