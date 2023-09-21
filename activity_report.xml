@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Guidelines"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:src="@drawable/arrowleft"
+            android:layout_marginTop="70px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="50px"
+            />
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Report"
+            android:textColor="#00BD15"
+            android:layout_marginTop="70px"
+            android:textSize="120px"
+            android:textFontWeight="700"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Report"
+        android:layout_width="match_parent"
+        android:layout_height="1626dp"
+        android:layout_marginTop="300px"
+        android:orientation="vertical"
+        android:padding="10px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            android:text="Report"
+            android:textColor="#212529"
+            android:textFontWeight="500"
+            android:textSize="90px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="20px"
+            android:gravity="center_vertical"
+            android:text="Here a person can complaint about any garbage on the road by adding description, location and photo. Then they will get rewards points"
+            android:textColor="#6C757D"
+            android:textFontWeight="400"
+            android:textSize="45px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="80px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="400px"
+                android:layout_height="200px"
+                android:layout_marginRight="150px"
+                android:background="#06BE1A"
+                android:orientation="vertical"
+                android:padding="30px"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Total Reports"
+                    android:textColor="#FFF"
+                    android:textFontWeight="600" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="56"
+                    android:textColor="#FFF"
+                    android:textFontWeight="600"
+                    android:textSize="80px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400px"
+                android:layout_height="200px"
+                android:background="@drawable/border_background"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="400px"
+                    android:layout_height="200px"
+                    android:layout_marginRight="150px"
+                    android:orientation="vertical"
+                    android:padding="30px"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Resolved Reports"
+                        android:textColor="#06BE1A"
+                        android:textFontWeight="600" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:textColor="#06BE1A"
+                        android:textFontWeight="600"
+                        android:textSize="80px" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:background="#EAF2FF"
+            android:orientation="vertical"
+            android:padding="50px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40px"
+                android:text="Title"
+                android:textColor="#1F2024"
+                android:textFontWeight="600"
+                android:textSize="60px"
+
+                />
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginBottom="40px"
+                android:background="@drawable/border_backgroundinput"
+                android:hint="Enter the title of report"
+                android:paddingLeft="20px"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40px"
+                android:text="Location"
+                android:textColor="#1F2024"
+                android:textFontWeight="600"
+                android:textSize="60px"
+
+                />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginBottom="40px"
+                android:background="@drawable/border_backgroundinput"
+                android:hint="Enter complete address "
+                android:paddingLeft="20px"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40px"
+                android:text="Description"
+                android:textColor="#1F2024"
+                android:textFontWeight="600"
+                android:textSize="60px"
+
+                />
+
+            <EditText
+                android:id="@+id/Description"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginBottom="40px"
+                android:background="@drawable/border_backgroundinput"
+                android:hint="Describe the report"
+                android:paddingLeft="20px"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#006FFD"
+                android:text="Submit"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80px"
+            android:orientation="vertical"
+            android:padding="10px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40px"
+                android:gravity="center_vertical"
+                android:text="Complaint"
+                android:textColor="#212529"
+                android:textFontWeight="500"
+                android:textSize="90px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="20px"
+                android:gravity="center_vertical"
+                android:text="People can also complaint about the driver of garbage collection vehicle, Technical problems in vending machines and dustbins and about the sweeper which work on road"
+                android:textColor="#6C757D"
+                android:textFontWeight="400"
+                android:textSize="45px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="80px"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="400px"
+                    android:layout_height="200px"
+                    android:layout_marginRight="150px"
+                    android:background="#06BE1A"
+                    android:orientation="vertical"
+                    android:padding="30px"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Total Complaints"
+                        android:textColor="#FFF"
+                        android:textFontWeight="600" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="56"
+                        android:textColor="#FFF"
+                        android:textFontWeight="600"
+                        android:textSize="80px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="400px"
+                    android:layout_height="200px"
+                    android:background="@drawable/border_background"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="510px"
+                        android:layout_height="200px"
+                        android:layout_marginRight="150px"
+                        android:orientation="vertical"
+                        android:padding="30px"
+
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Resolved Complaints"
+                            android:textColor="#06BE1A"
+                            android:textFontWeight="600" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="20"
+                            android:textColor="#06BE1A"
+                            android:textFontWeight="600"
+                            android:textSize="80px" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100px"
+                android:background="#EAF2FF"
+                android:orientation="vertical"
+                android:padding="50px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40px"
+                    android:text="Title"
+                    android:textColor="#1F2024"
+                    android:textFontWeight="600"
+                    android:textSize="60px"
+
+                    />
+
+                <EditText
+                    android:id="@+id/titleComplaint"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:layout_marginBottom="40px"
+                    android:background="@drawable/border_backgroundinput"
+                    android:hint="Enter the title of report"
+                    android:paddingLeft="20px"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40px"
+                    android:text="Description"
+                    android:textColor="#1F2024"
+                    android:textFontWeight="600"
+                    android:textSize="60px"
+
+                    />
+
+                <EditText
+                    android:id="@+id/DescriptionComplaint"
+                    android:layout_width="match_parent"
+                    android:layout_height="500px"
+                    android:layout_marginBottom="40px"
+                    android:background="@drawable/border_backgroundinput"
+                    android:hint="Describe the report"
+                    android:paddingLeft="20px"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/submitButton2"
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#006FFD"
+                    android:text="Submit"
+                    android:textColor="#FFFFFF" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+

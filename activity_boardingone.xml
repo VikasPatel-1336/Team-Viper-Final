@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/on_boarding"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/on_boardimg"
+    >
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <View
+        android:id="@+id/group_2"
+        android:layout_width="46dp"
+        android:layout_height="159dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="523dp"
+        android:layout_x="122dp"
+        android:layout_y="164dp"
+        android:background="@drawable/firstpage1" />
+
+    <View
+        android:id="@+id/group_3"
+        android:layout_width="487dp"
+        android:layout_height="106dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="721dp"
+        android:layout_x="-35dp"
+        android:layout_y="0dp"
+        android:elevation="3dp" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="213dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="721dp"
+        android:layout_x="110dp"
+        android:layout_y="577dp"
+        android:background="@drawable/rectangle_1" />
+
+
+    <TextView
+        android:id="@+id/get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="740dp"
+        android:layout_x="165dp"
+        android:layout_y="595dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/get_started"
+        android:textAppearance="@style/get_started" />
+
+    <View
+        android:id="@+id/ellipse_4"
+        android:layout_width="366dp"
+        android:layout_height="363dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="91dp"
+        android:layout_x="24dp"
+        android:layout_y="71dp"
+        android:alpha="0.5"
+        android:background="@drawable/ellipse" />
+
+    <View
+        android:id="@+id/humaaan"
+        android:layout_width="360dp"
+        android:layout_height="262dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="189dp"
+        android:layout_x="31dp"
+        android:layout_y="128dp"
+        android:background="@drawable/fpimg1" />
+
+
+    <TextView
+        android:id="@+id/hello_ji_"
+        android:layout_width="375dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="566dp"
+        android:layout_x="20dp"
+        android:layout_y="410dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/hello_ji_"
+        android:textAppearance="@style/hello_ji_" />
+
+    <TextView
+        android:id="@+id/lorem_ipsum"
+        android:layout_width="340dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="639dp"
+        android:layout_x="34dp"
+        android:layout_y="499dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/lorem_ipsum"
+        android:textAppearance="@style/lorem_ipsum"
+        android:translationY="-1.25sp" />
+
+    <ImageView
+        android:id="@+id/humaaan3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_x="174dp"
+        android:layout_y="489dp"
+        android:background="#2FCF35"
+        android:src="@drawable/firstpage1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_x="348dp"
+        android:layout_y="26dp"
+        android:text="NEXT"
+        android:textColor="#FFFFFF"
+
+        android:textSize="18dp"
+        />
+
+</AbsoluteLayout>

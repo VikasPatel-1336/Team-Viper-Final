@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/Guidelines"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:src="@drawable/arrowleft"
+            android:layout_marginTop="70px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="50px"
+            />
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Guidelines"
+            android:textColor="#00BD15"
+            android:layout_marginTop="70px"
+            android:textSize="120px"
+            android:textFontWeight="700"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300px"
+        android:orientation="vertical"
+        android:padding="30px">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Introduction"
+            android:textColor="#212529"
+            android:textSize="90px"
+            android:textFontWeight="500"
+            android:layout_marginLeft="40px"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Welcome to the guidelines page for the Domestic Waste Management App! This page provides you with all the information you need to use the app effectively and reduce your waste."
+            android:textColor="#6C757D"
+            android:textSize="45px"
+            android:textFontWeight="400"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="20px"
+            android:gravity="center_vertical"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/frame_313"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="20px"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#092C4C"
+            android:padding="30px"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Guidelines for recycling"
+                android:textColor="#FFFFFF"
+                android:textSize="45px"
+                android:textFontWeight="400"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:gravity="center_vertical|center_horizontal"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Sorting your waste is the first step to reducing waste and recycling more effectively. By sorting your waste properly, you can help to ensure that recyclable materials are recycled and that non-recyclable materials are disposed of in a sustainable way."
+            android:textColor="#000000"
+            android:textSize="45px"
+            android:textFontWeight="500"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginBottom="50px"
+            android:text="\u2022 Recyclable materials: Recyclable materials include paper, cardboard, metal, plastic, and glass. When sorting recyclable materials, it is important to remove any food or liquid residue. You should also flatten cardboard boxes and remove any labels or stickers. "
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="50px"
+            android:layout_height="wrap_content"
+            android:text="\u2022 Non-recyclable materials: Non-recyclable materials include food waste, hazardous waste, and sanitary waste. Food waste should be composted or disposed of in a food waste bin. Hazardous waste, such as batteries and electronics, should be disposed of at a hazardous waste collection center. Sanitary waste should be disposed of in a toilet."
+            android:textColor="#000000"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="20px"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/frame_321"
+            android:layout_marginBottom="70px"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#092C4C"
+            android:padding="30px"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Guidelines for rewards"
+                android:textColor="#FFFFFF"
+                android:textSize="45px"
+                android:textFontWeight="400"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:gravity="center_vertical|center_horizontal"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Sorting your waste is the first step to reducing waste and recycling more effectively. By sorting your waste properly, you can help to ensure that recyclable materials are recycled and that non-recyclable materials are disposed of in a sustainable way."
+            android:textColor="#000000"
+            android:textSize="45px"
+            android:textFontWeight="500"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Recyclable materials: Recyclable materials include paper, cardboard, metal, plastic, and glass. When sorting recyclable materials, it is important to remove any food or liquid residue. You should also flatten cardboard boxes and remove any labels or stickers"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="50px"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-recyclable materials: Non-recyclable materials include food waste, hazardous waste, and sanitary waste. Food waste should be composted or disposed of in a food waste bin. Hazardous waste, such as batteries and electronics, should be disposed of at a hazardous waste collection center. Sanitary waste should be disposed of in a toilet."
+            android:textColor="#000000"
+            android:layout_marginBottom="50px"
+            android:layout_marginStart="16dp"/>
+        <!-- Content section with a transparent background -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/layer_1"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="20px"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

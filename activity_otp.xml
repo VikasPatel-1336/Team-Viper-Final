@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity"
+    android:background="#EEEEEE">
+
+    <ImageView
+        android:id="@+id/bubbleimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shapes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/OTP_Verification"
+        android:layout_width="236dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="120dp"
+        android:layout_x="97dp"
+        android:layout_y="110dp"
+        android:gravity="top"
+        android:text="OTP verification"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="283dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="26sp"
+        android:layout_x="68dp"
+        android:layout_y="169dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal|top"
+        android:text="Enter the OTP sent to +91 987987333"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/OTP_Verification"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <ImageView
+        android:id="@+id/fbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:layout_x="84dp"
+        android:layout_y="213dp"
+        android:src="@drawable/otpbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/reciveotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="312dp"
+        android:layout_x="32dp"
+        android:layout_y="274dp"
+        android:text="Didn’t you receive the OTP?"
+        android:textColor="#B9B9B9"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RESENDotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+
+        android:layout_x="257dp"
+        android:layout_y="465dp"
+        android:text="Resend OTP"
+        android:textColor="#006FFD"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/reciveotp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_x="32dp"
+        android:layout_y="333dp"
+        android:text="Enter the OTP send \n HarshRastogi013@gmail.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reciveotp" />
+
+    <ImageView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+
+        android:layout_x="85dp"
+        android:layout_y="399dp"
+        android:src="@drawable/otpbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/receiveopt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_x="35dp"
+        android:layout_y="467dp"
+        android:text="Didn’t you receive the OTP?"
+        android:textColor="#B9B9B9"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/f" />
+
+    <TextView
+        android:id="@+id/RESENDotp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="32dp"
+        android:layout_x="253dp"
+        android:layout_y="273dp"
+        android:text="Resend OTP"
+        android:textColor="#006FFD"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/receiveopt2"
+        app:layout_constraintTop_toBottomOf="@+id/f" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_x="143dp"
+        android:layout_y="504dp"
+        android:src="@drawable/progressbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/receiveopt2" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="246dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_x="92dp"
+        android:layout_y="543dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#37B943"
+        android:text="Verify"
+        android:background="@drawable/box_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+</AbsoluteLayout>
